@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "875375726639",
+    "firebase_url": "https://profilapp-afcee.firebaseio.com",
+    "project_id": "profilapp-afcee",
+    "storage_bucket": "profilapp-afcee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875375726639:android:7c0c658593d949b2fc36da",
+        "android_client_info": {
+          "package_name": "dilshod.iskandarov.profilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875375726639-sm6lk6a9gp1kfo4tvlltc6np80sd5qks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChXvXk0Rz46wfI3YAsQhUzu4OuY0_lnHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875375726639-sm6lk6a9gp1kfo4tvlltc6np80sd5qks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

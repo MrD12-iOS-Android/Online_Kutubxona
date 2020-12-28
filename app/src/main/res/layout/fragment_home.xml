@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:orientation="vertical"
+    android:background="@drawable/background_reg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Sherlock"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/kitob_1"
+                        android:layout_width="110dp"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="10dp"
+                        android:elevation="70dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="7dp"
+                        android:src="@drawable/sherlock"
+                        tools:ignore="MissingConstraints" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sherlock"
+                        android:textSize="17dp"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/kitob_2"
+                    android:layout_width="110dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="70dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:src="@drawable/sherlock"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/kitob_3"
+                    android:layout_width="110dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="70dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:src="@drawable/sherlock"
+                    tools:ignore="MissingConstraints" />
+                <ImageView
+                    android:id="@+id/kitob_4"
+                    android:layout_width="110dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="10dp"
+                    android:elevation="70dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:src="@drawable/sherlock"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Eng kop oqilganlar"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O'zbek Shoirlari"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:elevation="70dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="7dp"
+                android:src="@drawable/sherlock"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/imageVi"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/imageV"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:elevation="70dp"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </ScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="5dp"
+            android:elevation="70dp"
+            android:src="@drawable/ic_launcher_background"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+</LinearLayout>
