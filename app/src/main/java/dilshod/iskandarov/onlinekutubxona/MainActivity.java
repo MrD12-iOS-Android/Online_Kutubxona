@@ -23,21 +23,20 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
+
     //Here Splash Screen
     private static int SPLASH_SCREEN = 3000;
-
     // here animation
     Animation animation;
     ImageView logo;
     boolean visible = true;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
-
-
         logo.animate().scaleYBy(90).scaleXBy(90).setDuration(2000);
         ProgressBar progressBar = (ProgressBar)findViewById(R.id.loading);
         Sprite doubleBounce = new Circle();
