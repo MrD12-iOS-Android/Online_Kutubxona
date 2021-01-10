@@ -44,6 +44,7 @@ public class Kirish extends AppCompatActivity implements View.OnClickListener {
     private Intent Menu_Activity;
     ImageView gone,vis;
     /*
+    //
     SharedPreferences sharedPreferences;
     public  static final String Email = "email";
     public  static final String Password = "password";
