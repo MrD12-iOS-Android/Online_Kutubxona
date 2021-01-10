@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         init();
 
+
         logo.animate().scaleYBy(90).scaleXBy(90).setDuration(2000);
 
         ProgressBar progressBar = (ProgressBar)findViewById(R.id.loading);
