@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
     ImageView logo;
     boolean visible = true;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
