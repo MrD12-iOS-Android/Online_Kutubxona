@@ -26,11 +26,10 @@ public class MainActivity extends AppCompatActivity {
     //Here Splash Screen
     private static int SPLASH_SCREEN = 3000;
 
-    // Here animation
+    // here animation
     Animation animation;
     ImageView logo;
     boolean visible = true;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
