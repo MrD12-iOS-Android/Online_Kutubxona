@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         logo.animate().scaleYBy(90).scaleXBy(90).setDuration(2000);
-
         ProgressBar progressBar = (ProgressBar)findViewById(R.id.loading);
         Sprite doubleBounce = new Circle();
         progressBar.setIndeterminateDrawable(doubleBounce);
@@ -51,34 +50,26 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 startActivity(new Intent(MainActivity.this,Reg_Log_welcome.class));
             }
+
         },SPLASH_SCREEN);
        // Here Action Bar App name
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.actionbar);
-
-
         //Here FULLSCREEN Start
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //Here FULLSCREEN End
-
     }
-
     private void init() {
         logo = findViewById(R.id.logo);
     }
-
    /* public void logo(View view) {
         if (visible){
             logo.animate().rotation(2700).scaleXBy(-1).scaleYBy(-1).setDuration(2000);
-
             visible = false;
         }else {
-
             visible = true;
         }
-
     }
-
     */
 }
